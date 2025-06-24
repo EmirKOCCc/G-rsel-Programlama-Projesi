@@ -1,0 +1,21 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+}
+.card-header {
+    font-weight: bold;
+}
+
+.col-md-2dot4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+    .col-md-2dot4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
